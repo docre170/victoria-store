@@ -4,8 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produit</title>
+    <style>
+        .hom {
+            columns: 3;
+        }
+        header .un {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+        }
+        section.barre ul {
+            margin-top: 5px;
+        }
+        .vet > div {
+            margin-bottom: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+        .hom > div {
+            margin-bottom: 10px;
+        }
+        button a {
+            color: inherit;
+            text-decoration: none;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #888;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <div class="un">
+            <img src="../image/logo.jpg" alt="Victoria Store Logo" width="150">
+            <h1>Bienvenue sur Victoria Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/codebase/index.html">Accueil</a></li>
+                <li><a href="/codebase/html/produit.html">Produits</a></li>
+                <li><a href="/codebase/html/promotion.html">Promotions</a></li>
+                <li><a href="/codebase/html/Contact.html">Contact</a></li>
+                <li><a href="#">Mon Compte</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="barre">
+            <p>
+                Bienvenue dans notre page produit où nous proposons nos différents produits.<br>
+                Nos vêtements sont classés selon ces catégories :
+            </p>
+            <ul>
+                <li>Catégories : Vêtements, Accessoires, Beauté, Électronique, etc</li>
+                <li>Prix : Tranche de prix personnalisable</li>
+                <li>Disponibilité : En stock / Rupture</li>
+                <li>Nouveautés : Trier par date d’ajout</li>
+                <li>Promotions : Articles soldés</li>
+            </ul>
+        </section>
+        <section class="vet">
+            <h2>Bienvenue dans notre branche vêtement</h2>
+            <div>
+                <h3>Vêtement homme</h3>
+                <div class="hom">
+                    <div>
+                        <img src="" alt="Vêtement homme 1">
+                    </div>
+                    <div>Nom produit :</div>
+                    <div>Note :</div>
+                </div>
+                <button>
+                    <a href="">Voir plus</a>
+                </button>
+            </div>
+            <div>
+                <h3>Vêtement femme</h3>
+                <div class="hom">
+                    <div>
+                        <img src="" alt="Vêtement femme 1">
+                    </div>
+                    <div>Nom produit :</div>
+                    <div>Note :</div>
+                </div>
+                <button>
+                    <a href="">Voir plus</a>
+                </button>
+            </div>
+            <div>
+                <h3>Vêtement enfant</h3>
+                <div class="hom">
+                    <div>
+                        <img src="" alt="Vêtement enfant 1">
+                    </div>
+                    <div>Nom produit :</div>
+                    <div>Note :</div>
+                </div>
+                <button>
+                    <a href="">Voir plus</a>
+                </button>
+            </div>
+            <div>
+                <h3>Vêtement populaire</h3>
+                <div class="hom">
+                    <div>
+                        <img src="" alt="Vêtement populaire 1">
+                    </div>
+                    <div>Nom produit :</div>
+                    <div>Note :</div>
+                </div>
+                <button>
+                    <a href="">Voir plus</a>
+                </button>
+            </div>
+        </section>
+        <section>
+            <h2>Nos meilleures offres</h2>
+            <ul>
+                <li>Livraison gratuite à partir de 50 $ d'achat</li>
+                <li>Retours faciles sous 30 jours</li>
+                <li>Service client 7j/7</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Victoria Store. Tous droits réservés.</p>
+    </footer>
 </body>
 </html>
